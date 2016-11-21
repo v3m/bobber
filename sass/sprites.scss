@@ -1,0 +1,48 @@
+/* Sprites */
+.sprite {
+  background-image: url("../img/spritesheet.png");
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-close {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -5px;
+    transition: opacity 0.3s;
+    opacity: 0.6;
+
+    &:hover {
+      opacity: 1;
+    }
+}
+
+.sprite-facebook {
+    width: 34px;
+    height: 32px;
+    background-position: -45px -5px;
+
+    &:hover {
+      background-position: -89px -5px;
+    }
+}
+
+.sprite-google {
+    width: 33px;
+    height: 32px;
+    background-position: -133px -5px;
+
+    &:hover {
+      background-position: -176px -5px;
+    }
+}
+
+.sprite-linkedin {
+    width: 33px;
+    height: 32px;
+    background-position: -219px -5px;
+
+    &:hover {
+      background-position: -262px -5px;
+    }
+}

@@ -1,0 +1,38 @@
+/* PopUp Mask */
+.popup-mask {
+  width: 100%;
+  min-height: 100%;
+  background-image: url("../img/dim-layer.png");
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 51;
+  display: none;
+}
+/*End PopUp Mask */
+
+/* Popup RED Star Bobber*/
+.redstar-popup {
+  background-image: url("../img/bobberv.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #3d3d3d;
+  width: 800px;
+  height: 500px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: fixed;
+  text-align: center;
+  display: none;
+  z-index: 52;
+
+  .popup-close {
+    float: right;
+    margin: 20px;
+  }
+}
+/* End Red Star Bobber */

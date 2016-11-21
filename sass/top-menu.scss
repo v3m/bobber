@@ -1,0 +1,32 @@
+.top-menu {
+	background-color: #3d3d3d;
+	opacity: 0.9;
+	width: 100%;
+	position: fixed;
+	box-shadow: 0px 2px 3px #000;
+	z-index: 50;
+	
+	.menu-list {
+		list-style-type: none;
+		float: right;
+		margin-right: 40px;
+	}
+
+	.top-menu-btn {
+		display: inline-block;
+		padding: 10px 20px;
+	}
+
+	a {
+		color: #886b4c;
+		text-transform: uppercase;
+		text-decoration: none;
+		cursor: pointer;
+		transition: color 0.3s;
+
+		&:hover {
+			color: white;
+			opacity: 0.9;
+		}
+	}
+}

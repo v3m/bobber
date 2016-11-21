@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>OldSchool Motors</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/v3m.js"></script>
+</head>
+<body>
+    <div class="redstar-popup">
+        <a href="#" class="popup-close"><i class="sprite sprite-close"></i></a>
+    </div>
+    <div class="popup-mask"></div>
+    <div class="content">
+        <header id="header">
+            <div class="top-menu">
+                <ul class="menu-list">
+                    <li class="top-menu-btn"><a class="scroll" href="#header">home</a></li>
+                    <li class="top-menu-btn"><a class="scroll" href="#about-us">about us</a></li>
+                    <li class="top-menu-btn"><a class="scroll" href="#projects">projects</a></li>
+                    <li class="top-menu-btn"><a class="scroll" href="#container-form">contacts</a></li>
+                </ul>
+            </div>
+            <div class="header-content">
+                <p class="header-title">Welcome to OldSchool Motors homepage!</p>
+                <p class="header-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate aliquid iusto doloremque reiciendis temporibus maxime aspernatur eligendi molestias eos dolor officiis, vero similique labore natus? Iusto perspiciatis quod, dolorem rem.
+                </p>
+            </div>
+        </header>
+        <div id="about-us">
+            <h2 class="title">About Us</h2>
+            <div class="about-info">
+                <img class="vados" src="img/vados.jpg" alt="vados" width="300"/>
+                <p class="about-text">"Мне захотелось сделать, что-то в стиле OldSchool - Местами потертая до грунтовки краска, кик-стартер, сиденье на пружинах, но в то же время в идеальном техническом состоянии из отреставрированных и оригинальных запчастей. Правда, многое из того, что завод должен был сделать до меня, я доработал после завода. Для постройки мотоцикла была выбрана рама к-750 1962 года выпуска, а для более комфортной и динамичной езды установлен "быстрый" редуктор - такой раньше использовали на милицейском "Урале". Название <span class="tomato-text">Red Star Bobber</span> появилось уже после постройки мотоцикла из-за красной потертой звезды на бензобаке". © Vados</p>
+                <br>
+                В 2011-м году знаменитый Ирбитский мотоциклетный завод («Уралмото») отметит свое 70-летие. За эти годы было выпущено более трех миллионов мотоциклов «Урал» – единственной модели отечественной мотоциклетной промышленности, получившей признание за рубежом. «Урал» был и остается поистине легендарным мотоциклом, интерес к которому не иссякает и по сей день.</p>
+                <p class="about-text">
+                 Начиналось все в самом конце 30-х годов, когда возникла необходимость в создании мотоциклов для Советских       Вооруженных Сил. После сравнения нескольких моделей зарубежного производства было принято решение остановиться на мотоцикле БМВ R71, состоящем на вооружении немецкой армии. К реализации планов по выпуску нового отечественного мотоцикла М-72 привлекли специалистов Московского мотоциклетного завода (ММЗ), в результате чего появился практически полный аналог БМВ R71. Модель оснастили двухцилиндровым двигателем объемом 750 куб. см мощностью 22 л.с., весил мотоцикл с коляской 380 кг и разгонялся до 85 км/час.</p>
+                <div class="circle">
+                    <div class="auto-height"><img src="img/star.png" alt="star" width="40" height="40"></div>
+                </div>
+            </div>
+        </div>
+        <div id="projects">
+            <h2 class="title">Projects</h2>
+            <div class="projects-gallery">
+                <div class="our-work">
+                    <img class="red-open" src="img/bob.jpg" alt="k750" width="300">
+                    <h3>Dnepr RED STAR Bobber 1965г.</h3>
+                </div>
+                <div class="our-work">
+                    <img class="red-open" src="img/k750.jpg" alt="k750" width="300">
+                    <h3>Model K-750 1961г.</h3>
+                </div>
+                <div class="our-work">
+                    <img class="red-open" src="img/bobberv.jpg" alt="k750" width="300">
+                    <h3>Dnepr RED STAR Bobber 1965г.</h3>
+                </div>
+            </div>
+        </div>
+        <div id="container-form">
+            <div class="query">
+                <h2 class="title">Contact Us</h2>
+                <p>Send technical question about parts of your Motorcycle?</p>
+                <form action="" method="POST" class="myForm">
+                    <input class="inp" type="text" name="example1" placeholder="* Name">
+                    <input class="inp" type="text" name="example2" placeholder="* Surname">
+                    <input class="phone inp" type="tel" name="phone" id="" placeholder="* Phone">
+                    <input class="email inp" type="text" name="email" id="" placeholder="* email">
+                    <textarea name="text" class="inp" cols="30" rows="10"></textarea>
+                    <select name="country" class="select-country">
+                        <option class="disabled-opt" hidden disabled selected>* Choose your location</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Latvija">Latvija</option>
+                        <option value="Lietuva">Lietuva</option>
+                        <option value="Estonia">Estonia</option>
+                    </select>
+                    <div class="send-query">
+                        <button type="submit" class="btn-send-form">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-info">
+                <ul>
+                    <li><a href="#"><i class="sprite sprite-linkedin"></i></a></li>
+                    <li><a href="#"><i class="sprite sprite-facebook"></i></a></li>
+                    <li><a href="#"><i class="sprite sprite-google"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
